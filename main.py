@@ -8,7 +8,8 @@ import pyttsx3  # برای تبدیل متن به گفتار
 from groq import Groq  # کتابخانه Groq AI
 
 # تنظیمات Groq AI
-client = Groq(api_key='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')  # کلید API خود را مستقیم وارد کنید
+client = Groq(api_key='###')  # کلید API خود را مستقیم وارد کنید
+# ای پی ای کد باید خودتون از سایت گروک یا هر سایت ای ایی که میخواد بگیرید 
 
 # تنظیمات ضبط صدا
 FORMAT = pyaudio.paInt16  # فرمت صدای ضبط‌شده
@@ -136,4 +137,8 @@ def process_audio():
 
 if __name__ == "__main__":
     main()
-    
+
+
+
+# تمامی کپشن ها توسط هوش مصنویی نوشته شده البته خودمم هم برسی کردم
+# دوست دار شما NEECODE
